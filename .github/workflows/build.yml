@@ -2,7 +2,7 @@ name: Bygg debug-APK
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, 'claude/android-app-storleksprognos-ru212p' ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
