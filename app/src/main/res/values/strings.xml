@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Storleksprognosen</string>
+
+    <!-- Navigering -->
+    <string name="nav_forecast">Prognosen</string>
+    <string name="nav_inventory">Arvsmatrisen</string>
+    <string name="nav_foot">Fotmätaren</string>
+
+    <!-- Allmänna åtgärder -->
+    <string name="action_back">Tillbaka</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_close">Stäng</string>
+    <string name="action_decrease">Minska</string>
+    <string name="action_increase">Öka</string>
+    <string name="action_delete">Ta bort</string>
+    <string name="action_edit">Redigera</string>
+    <string name="action_ok">OK</string>
+    <string name="action_save">Spara</string>
+    <string name="action_reset">Återställ</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="action_add_child">Lägg till barn</string>
+    <string name="action_add_measurement">Ny mätning</string>
+    <string name="action_add_item">Spara plagg</string>
+    <string name="action_show_demo">Visa exempel</string>
+
+    <!-- Gemensamma begrepp -->
+    <string name="gender_girl">Flicka</string>
+    <string name="gender_boy">Pojke</string>
+    <string name="category_shoes">Skor</string>
+    <string name="category_clothes">Kläder</string>
+    <string name="season_winter">Vinter</string>
+    <string name="season_summer">Sommar</string>
+    <string name="season_spring_fall">Vår/höst</string>
+    <string name="season_all_year">Året runt</string>
+    <string name="period_spring">Vår %1$d</string>
+    <string name="period_summer">Sommar %1$d</string>
+    <string name="period_autumn">Höst %1$d</string>
+    <string name="period_winter">Vinter %1$d/%2$02d</string>
+    <string name="period_spring_in_sentence">våren %1$d</string>
+    <string name="period_summer_in_sentence">sommaren %1$d</string>
+    <string name="period_autumn_in_sentence">hösten %1$d</string>
+    <string name="period_winter_in_sentence">vintern %1$d/%2$02d</string>
+    <string name="metric_height">Längd</string>
+    <string name="metric_foot">Fot</string>
+    <string name="metric_height_toggle">📏 Längd (cm)</string>
+    <string name="metric_foot_toggle">👣 Fot (mm)</string>
+    <string name="value_cm">%1$s cm</string>
+    <string name="value_mm">%1$s mm</string>
+    <string name="size_label">Stl %1$d</string>
+    <string name="percentile_short">P%1$d</string>
+    <string name="age_newborn">Nyfödd</string>
+    <string name="age_months">%1$d mån</string>
+    <string name="age_years">%1$d år</string>
+    <string name="age_years_months">%1$d år %2$d mån</string>
+    <string name="month_year">%1$s %2$d</string>
+    <string name="day_month_year">%1$d %2$s %3$d</string>
+    <string-array name="months">
+        <item>januari</item>
+        <item>februari</item>
+        <item>mars</item>
+        <item>april</item>
+        <item>maj</item>
+        <item>juni</item>
+        <item>juli</item>
+        <item>augusti</item>
+        <item>september</item>
+        <item>oktober</item>
+        <item>november</item>
+        <item>december</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+
+    <!-- Prognosen -->
+    <string name="forecast_subtitle">Så växer barnen – och vilka storlekar som behövs</string>
+    <string name="forecast_empty_title">Välkommen! 🌱</string>
+    <string name="forecast_empty_message">Lägg till ditt första barn för att se tillväxtkurvor, storleksprognoser och vilka ärvda plagg som passar när.</string>
+    <string name="forecast_basis_measured">följer mätningen %1$s</string>
+    <string name="forecast_basis_from_height">uppskattad från längden</string>
+    <string name="forecast_basis_median">ingen mätning – följer P50</string>
+    <string name="forecast_beyond_horizon">%1$s är äldre än 6 år – kurvorna täcker 0–6 år.</string>
+    <string name="chart_today">Idag</string>
+    <string name="chart_years">%1$d år</string>
+    <string name="chart_description">Tillväxtdiagram med percentilkurvorna P3, P15, P50, P85 och P97, säsongsskuggning och prognos för %1$s.</string>
+    <string name="slider_hint">Dra i tummen för att se framtiden</string>
+    <string name="slider_description">Välj ålder i prognosen</string>
+    <string name="preview_in_future">om %1$s</string>
+    <string name="preview_in_past">för %1$s sedan</string>
+    <string name="preview_now">just nu</string>
+    <string name="preview_clothes">👕 Klädstorlek</string>
+    <string name="preview_shoes">👟 Skostorlek</string>
+    <string name="preview_height">längd ca %1$s cm</string>
+    <string name="preview_foot">fot ca %1$s mm</string>
+    <string name="preview_lasts_until">räcker till ca %1$s</string>
+    <string name="preview_lasts_beyond">räcker längre än prognosen</string>
+    <string name="measurements_title">Mätningar</string>
+    <string name="measurements_empty">Inga mätningar än. Lägg till längd och fotlängd här – eller mät foten i Fotmätaren.</string>
+    <string name="measurement_at_age">vid %1$s</string>
+    <string name="measurement_value_with_percentile">%1$s (P%2$d)</string>
+    <string name="forecast_disclaimer" formatted="false">Längdkurvor: WHO Child Growth Standards (0–5 år) och WHO Growth Reference 2007 (5–6 år). Fotkurvorna är en uppskattning: ca 15,7 % av kroppslängden. Prognosen antar att barnet fortsätter följa sin percentil från den senaste mätningen.</string>
+
+    <!-- Barn -->
+    <string name="child_dialog_new">Nytt barn</string>
+    <string name="child_dialog_edit">Redigera barn</string>
+    <string name="child_name">Namn</string>
+    <string name="child_birthdate">Födelsedatum</string>
+    <string name="child_delete_title">Ta bort %1$s?</string>
+    <string name="child_delete_message">Alla mätningar och sparade plagg efter barnet tas också bort.</string>
+    <string name="error_name_required">Ange ett namn</string>
+    <string name="error_birthdate_future">Födelsedatumet kan inte vara i framtiden</string>
+
+    <!-- Mätningar -->
+    <string name="measurement_dialog_new">Ny mätning</string>
+    <string name="measurement_dialog_edit">Redigera mätning</string>
+    <string name="measurement_date">Datum</string>
+    <string name="measurement_height">Längd (cm)</string>
+    <string name="measurement_foot">Fotlängd (mm)</string>
+    <string name="measurement_hint">Fyll i minst ett av måtten.</string>
+    <string name="measurement_delete_title">Ta bort mätningen?</string>
+    <string name="error_height_range">Ange en längd mellan 30 och 150 cm</string>
+    <string name="error_foot_range">Ange en fotlängd mellan 50 och 250 mm</string>
+    <string name="error_date_before_birth">Datumet är före födseln</string>
+    <string name="error_date_future">Datumet kan inte vara i framtiden</string>
+    <string name="date_pick">Välj datum</string>
+
+    <!-- Inställningar -->
+    <string name="settings_title">Inställningar</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Ljust</string>
+    <string name="theme_dark">Mörkt</string>
+    <string name="settings_dynamic_color">Material You-färger</string>
+    <string name="settings_dynamic_color_hint">Anpassa färgerna efter bakgrundsbilden (Android 12 och senare).</string>
+    <string name="settings_about_title">Om beräkningarna</string>
+    <string name="settings_about_text" formatted="false">• Kroppslängd jämförs med WHO:s LMS-tabeller för flickor och pojkar. Z-score = ((längd ÷ M)^L − 1) ÷ (L × S).\n• Fotlängd har ingen officiell kurva; den uppskattas som ca 15,7 % av kroppslängden med något större spridning.\n• Prognosen följer barnets percentil från den senaste mätningen.\n• Klädstorlek (centilong) = minsta storlek som är minst lika lång som barnet.\n• Skostorlek (EU) = (fotlängd + växtmån) ÷ 6,67 mm, avrundat uppåt.\n• Säsonger: vinter nov–mar, vår apr–maj, sommar jun–aug, höst sep–okt. Ett plagg ska räcka hela säsongen.</string>
+
+    <!-- Arvsmatrisen -->
+    <string name="inventory_subtitle">Sparade plagg matchas mot syskonens prognos</string>
+    <string name="inventory_tab_items">📦 Förrådet</string>
+    <string name="inventory_tab_matrix">🧩 Säsongsmatris</string>
+    <string name="filter_all">Alla</string>
+    <string name="inventory_empty_title">Förrådet är tomt</string>
+    <string name="inventory_empty_message">Spara kläder och skor som barnen vuxit ur – appen visar vem de passar och när.</string>
+    <string name="inventory_no_children_title">Inga barn än</string>
+    <string name="inventory_no_children_message">Lägg till barn under Prognosen så kan plaggen matchas mot deras tillväxt.</string>
+    <string name="item_subtitle">%1$s · efter %2$s</string>
+    <string name="status_match">Passar %1$s %2$s (Stl %3$d)</string>
+    <string name="status_match_now">Passar %1$s nu (Stl %2$d)</string>
+    <string name="status_match_from">Passar %1$s från %2$s (Stl %3$d)</string>
+    <string name="status_reaches">Spara ej – %1$s når stl %2$d i %3$s</string>
+    <string name="status_outgrows">Spara ej – %1$s växer ur stl %2$d i %3$s</string>
+    <string name="status_wrong_season">Spara ej – stl %2$d passar inte %1$s den säsongen</string>
+    <string name="status_outgrown">Spara ej – %1$s har vuxit ur stl %2$d</string>
+    <string name="status_beyond">Utanför prognosen för %1$s (0–6 år)</string>
+    <string name="gap_text">Inget sparat för %1$s (Behöver Stl %2$d)</string>
+    <string name="covered_text">%1$s: %2$s (Stl %3$d)</string>
+    <string name="matrix_hint">Storleken som räcker hela säsongen enligt prognosen. Tryck på en ruta för detaljer.</string>
+    <string name="matrix_legend">🟢 finns sparat · ⚪ lucka</string>
+    <string name="matrix_gaps_title">Luckor att fylla</string>
+    <string name="matrix_covered_title">Redan sparat</string>
+    <string name="matrix_no_gaps">Inga luckor – allt finns redan sparat! 🎉</string>
+    <string name="matrix_no_periods">Prognosen täcker inga kommande säsonger för barnen.</string>
+    <string name="matrix_out_of_range">–</string>
+
+    <!-- Plagg -->
+    <string name="item_dialog_new">Spara plagg</string>
+    <string name="item_dialog_edit">Redigera plagg</string>
+    <string name="item_title">Vad är det?</string>
+    <string name="item_title_placeholder">t.ex. Vinterkängor</string>
+    <string name="item_category">Typ</string>
+    <string name="item_size">Storlek</string>
+    <string name="item_season">Säsong</string>
+    <string name="item_owner">Ärvt från</string>
+    <string name="item_delete_title">Ta bort plagget?</string>
+    <string name="error_title_required">Beskriv plagget</string>
+
+    <!-- Fotmätaren -->
+    <string name="foot_subtitle">Mät foten direkt på skärmen</string>
+    <string name="foot_calibration_title">1. Kalibrera skärmen</string>
+    <string name="foot_calibrated">Kalibrerad: %1$s px/mm (≈ %2$d ppi)</string>
+    <string name="foot_not_calibrated">Inte kalibrerad – använder skärmens uppgivna täthet (%1$s px/mm). Kalibrera för exakt mätning.</string>
+    <string name="foot_calibrate_button">Kalibrera med kreditkort</string>
+    <string name="foot_edge_offset">Kant till skärm: %1$s mm</string>
+    <string name="foot_edge_offset_hint">Avståndet från mobilens nederkant (med skal) till skärmens första pixel. Mät med linjal.</string>
+    <string name="foot_measure_title">2. Väggmetoden</string>
+    <string name="foot_measure_steps">1. Lägg mobilen plant på golvet med nederkanten mot väggen.\n2. Låt barnet stå med hälen mot väggen och foten på skärmen.\n3. Dra linjen till spetsen av den längsta tån.</string>
+    <string name="foot_measure_button">Starta mätning</string>
+    <string name="foot_allowance_title">3. Skostorlek</string>
+    <string name="foot_allowance">Växtmån: %1$d mm</string>
+    <string name="foot_allowance_hint">Innerlängd = fot + växtmån. EU-storlek = innerlängd ÷ 6,67 mm. Vanlig rekommendation är 12–17 mm.</string>
+    <string name="foot_allowance_example">Fot %1$d mm → stl %2$d</string>
+    <string name="foot_latest">Senast för %1$s: %2$s mm (%3$s) → stl %4$d</string>
+    <string name="foot_tips_title">💡 Tips</string>
+    <string name="foot_tips">• Mät när barnet står upp – foten blir längre under belastning.\n• Mät båda fötterna och använd den längsta.\n• Mät gärna på eftermiddagen, då är fötterna som störst.</string>
+
+    <!-- Kalibrering -->
+    <string name="calibration_title">Kalibrera skärmen</string>
+    <string name="calibration_card_hint">Lägg ett kreditkort här\nmed långsidan på längden</string>
+    <string name="calibration_instructions">Dra i rutan eller reglaget tills rutan är exakt lika lång som kortet (85,6 mm).</string>
+    <string name="calibration_value">%1$s px/mm</string>
+
+    <!-- Mätning -->
+    <string name="measure_heel">▼ HÄL MOT VÄGGEN ▼</string>
+    <string name="measure_reading">%1$s mm · stl %2$d</string>
+    <string name="measure_drag_hint">Dra linjen till stortåns spets</string>
+    <string name="measure_save_title">Spara %1$s mm för</string>
+    <string name="measure_saved">Sparat för %1$s</string>
+    <string name="measure_no_children">Lägg till ett barn under Prognosen för att kunna spara mätningen.</string>
+    <string name="measure_fine_up">Flytta linjen uppåt</string>
+    <string name="measure_fine_down">Flytta linjen nedåt</string>
+
+    <!-- Exempeldata -->
+    <string name="demo_brother">Storebror</string>
+    <string name="demo_sister">Lillasyster</string>
+    <string name="demo_winter_boots">Vinterkängor</string>
+    <string name="demo_snowsuit">Vinteroverall</string>
+    <string name="demo_sandals">Sandaler</string>
+    <string name="demo_lined_boots">Fodrade stövlar</string>
+    <string name="demo_bodysuits">Bodys</string>
+</resources>
